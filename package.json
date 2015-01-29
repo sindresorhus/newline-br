@@ -1,6 +1,6 @@
 {
   "name": "newline-br",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prepend <br> to newlines in a string",
   "license": "MIT",
   "repository": "sindresorhus/newline-br",

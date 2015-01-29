@@ -1,0 +1,36 @@
+{
+  "name": "newline-br",
+  "version": "0.0.0",
+  "description": "Prepend <br> to newlines in a string",
+  "license": "MIT",
+  "repository": "sindresorhus/newline-br",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "newline",
+    "br",
+    "html",
+    "break",
+    "line",
+    "string",
+    "str",
+    "replace",
+    "insert",
+    "prepend"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}

@@ -1,10 +1,8 @@
-'use strict';
-var test = require('ava');
-var newlineBr = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	t.assert(newlineBr('foo\nbar') === 'foo<br>\nbar');
-	t.assert(newlineBr('foo\n\nbar') === 'foo<br>\n<br>\nbar');
-	t.assert(newlineBr('\r\nfoo\n\nbar') === '<br>\r\nfoo<br>\n<br>\nbar');
-	t.end();
+test(t => {
+	t.is(fn('foo\nbar'), 'foo<br>\nbar');
+	t.is(fn('foo\n\nbar'), 'foo<br>\n<br>\nbar');
+	t.is(fn('\r\nfoo\n\nbar'), '<br>\r\nfoo<br>\n<br>\nbar');
 });

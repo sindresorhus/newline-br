@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save newline-br
+$ npm install newline-br
 ```
 
 
 ## Usage
 
 ```js
-var newlineBr = require('newline-br');
+const newlineBr = require('newline-br');
 
 newlineBr('unicorn\nrainbow');
 //=> 'unicorn<br>\nrainbow'
@@ -22,4 +22,4 @@ newlineBr('unicorn\nrainbow');
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

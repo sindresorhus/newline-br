@@ -1,36 +1,36 @@
 {
-  "name": "newline-br",
-  "version": "1.0.1",
-  "description": "Prepend <br> to newlines in a string",
-  "license": "MIT",
-  "repository": "sindresorhus/newline-br",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "newline",
-    "br",
-    "html",
-    "break",
-    "line",
-    "string",
-    "str",
-    "replace",
-    "insert",
-    "prepend"
-  ],
-  "devDependencies": {
-    "ava": "*"
-  }
+	"name": "newline-br",
+	"version": "1.0.1",
+	"description": "Prepend <br> to newlines in a string",
+	"license": "MIT",
+	"repository": "sindresorhus/newline-br",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"newline",
+		"br",
+		"html",
+		"break",
+		"line",
+		"string",
+		"replace",
+		"insert",
+		"prepend"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }

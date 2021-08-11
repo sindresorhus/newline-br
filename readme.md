@@ -11,7 +11,7 @@ $ npm install newline-br
 ## Usage
 
 ```js
-const newlineBr = require('newline-br');
+import newlineBr from 'newline-br';
 
 newlineBr('unicorn\nrainbow');
 //=> 'unicorn<br>\nrainbow'
